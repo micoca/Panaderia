@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Cinzel:wght@400..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="imagenes/logo panaderia.png">
+    <link rel="icon" type="imagenes" href="imagenes/logo panaderia.png" >
     <title>Don Fermin</title>
 </head>
+
 <body>
+
      <header>
         <section class="holder">
-        <img src="imagenes/logo panaderia.png" alt="logo panaderia don fermin" width="150">
-        <h1>Panaderia don Fermin</h1>
-    </section>
+         <img src="imagenes/logo panaderia.png" alt="logo panaderia don fermin" width="150">
+          <h1>Panaderia don Fermin</h1>
+        </section>
      </header>
     
      <div class="inicio">
@@ -25,38 +31,50 @@
         <div class="medialunas">
            <h2>Nuestros productos:</h2>
            <h3>Media lunas</h3>
+           <img src="imagenes/medialunas.png" alt="medialunas" height="300">
            <p>Las mejores media lunas de Madariaga hecha con los mehores ingredientes.</p>
            <p>$700</p>
+           <button onclick="mostrarMedialunas()">Comprar</button>
         </div>
 
      <div class="panmasamdre">
         <h3>Pan de masa madre</h3>
+        <img src="imagenes/pan de masa madre.png" alt="panmasamadre" height="300">
         <p>Pan artesanal hecho con masa madre, ideal para acompañar cualquier comida.</p>
         <p>$1200</p>
+        <button onclick="mostrarPanMasamadre()">Comprar</button>
      </div>
 
         <div class="facturas">
             <h3>Facturas</h3>
+            <img src="imagenes/facturas .png" alt="facturas" height="300">
             <p>Variedad de facturas frescas y deliciosas, perfectas para el desayuno o la merienda.</p>
             <p>$500</p>
+            <button onclick="mostrarFacturas()">Comprar</button>
         </div>
 
         <div class="tortas">
                 <h3>Tortas</h3>
+                <img src="imagenes/tortas.png" alt="tortas" height="300">
                 <p>Tortas caseras hechas con ingredientes frescos y de calidad, ideales para cualquier ocasión.</p>
                 <p>$2500</p>
+                <button onclick="mostrarTortas()">Comprar</button>
         </div>
 
-        <div class="pan integral">
+        <div class="panintegral">
             <h3>Pan integral</h3>
+            <img src="imagenes/pan integral.png" alt="pan integral" height="300">
             <p>Pan saludable hecho con harina integral, perfecto para una dieta equilibrada.</p>
             <p>$900</p>
+            <button onclick="mostrarPanIntegral()">Comprar</button>
         </div>
 
         <div class="prepizzas">
             <h3>Pre pizzas</h3>
+            <img src="imagenes/pre pizzas.png" alt="pre pizzas" height="300">
             <p>Base para pizza lista para hornear, hecha con ingredientes frescos y de calidad.</p>
             <p>$1500</p>
+            <button onclick="mostrarPrepizzas()">Comprar</button>
         </div>
     </div>
 
@@ -72,8 +90,10 @@
         <p>Teléfono: 2267-551234</p>
     </div>
 
-  <footer>Hecho por Yenifer Quispe y Micaela Carabajal</footer>
+  <footer class="footer">
+     <p>Diseñado por Yenifer Quispe y Micaela Carabajal - &copy;2025</p>
+  </footer>
   
 </body>
-<javaScript src="script.js"></javaScript>
+<script src="app.js"></script>
 </html>

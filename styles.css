@@ -4,11 +4,61 @@ body{
     padding: 0;
     background-color: #f8f4f5;
     color: #333333;
+    text-align: center;
+    
+h1{
+    font-family: "cinzel", serif;
+    font-size: 48px;
+}
+
+.productos h2{
+    font-family: "Cinzel", serif;
+    font-size: 36px;
+}
+
+.inicio p{
+    font-size: large;
+}
+
+.inicio h2{
+    font-size: 30px;
+}
+
+.productos h3{
+    font-family: "Montserrat", serif;
+    color:#333333;
+    font-size: 25px;
+}
+
+h3{
+    color:#333333;
+    font-family: "Montserrat", sans-serif;
+}
+
+button{
+    font-family: "Montserrat", sans-serif;
+    background-color: #ebd9c1;
+    color: rgb(88, 88, 88);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
 header{
     background-color: #f2e3e6;
     color: #333333;
     padding: 20px;
-    text-align: center;
+    text-align: center; 
+}
+
+.footer{
+    background-color: #ebcfbf;
+    font-size: larger;
 }
 }
