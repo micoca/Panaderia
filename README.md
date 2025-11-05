@@ -14,18 +14,18 @@ La panadería Don Fermín ofrece una variedad de delicias tradicionales:
 - 🍕 Pre pizzas: listas para hornear, con base crocant
 
 ## Cómo utilizarlo
-Abrir el archivo ‘index.html’
-Navegar entre los productos
+- Abrir el archivo ‘index.html’
+- Navegar entre los productos
 
 ## Cómo clonarlo
-git clone https://github.com/micoca/Panaderia
-cd panaderia
-code .
+- git clone https://github.com/micoca/Panaderia
+- cd panaderia
+- code .
 
 ## Tecnologías utilizadas
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Desarrolladoras
 - Yenifer Quispe 
