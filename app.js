@@ -27,7 +27,7 @@ function mostrarMedialunas() {
 }
 
 function mostrarPanMasamadre() {
-  calcularTotal("panmasamadre");
+  calcularTotal("pan masamadre");
 }
 
 function mostrarFacturas() {
@@ -39,7 +39,7 @@ function mostrarTortas() {
 }
 
 function mostrarPanIntegral() {
-  calcularTotal("panintegral");
+  calcularTotal("pan integral");
 }
 
 function mostrarPrepizzas() {
